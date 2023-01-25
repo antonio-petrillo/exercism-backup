@@ -1,0 +1,35 @@
+#+title: Readme
+
+* Exercise
+This is my backup for the [[https://exercism.org/dashboard][Exercism]] platform.
+* 12 in 23
+I will tray the challenge of 12 language in 2023.
+It require at least 5 exercise for in each language (apart of *Hello World*).
+** Languages [3/12]
++ [X] clojure (clojurescript is identical to clojure)
++ [X] java
++ [ ] kotlin
++ [X] golang
++ [ ] rust
++ [ ] elisp
++ [ ] lua
++ [ ] python
++ [ ] javascript
++ [ ] bash
++ [ ] awk
++ [ ] C
+
+* To improve
+** clojure [0/4]
++ [ ] beer song
++ [ ] sublist
++ [ ] triangle (I don't know why but I don't like this one)
++ [ ] wordy
++ [ ] secret-handshake (See clojure bit functions)
++ [ ] study other POV's community solution (no need to change my solution)
++ [ ] poker (follow mentor advice)
+** java [0/1]
++ [ ] binary search (make it generic)
+** go [1/1]
++ [X] blackjack (it works but it's very ugly)
+** C [/]
