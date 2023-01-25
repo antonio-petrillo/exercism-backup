@@ -32,6 +32,7 @@ java/*/src/test/*
 LICENSE
 kotlin/*/gradle/*
 kotlin/*/src/test/*
+kotlin/*/build/*
 *.json
 *.kts
 *Test.kt
