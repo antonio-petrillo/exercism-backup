@@ -5,22 +5,23 @@ This is my backup for the [[https://exercism.org/dashboard][Exercism]] platform.
 * 12 in 23
 I will tray the challenge of 12 language in 2023.
 It require at least 5 exercise for in each language (apart of *Hello World*).
-** Languages [4/12]
-+ [X] clojure (clojurescript is identical to clojure) [8/5]
-+ [X] java [30/5]
-+ [ ] kotlin [0/5]
-+ [X] golang [14/5]
-+ [ ] rust [0/5]
-+ [ ] elisp [3/5]
-+ [ ] lua [0/5]
-+ [ ] python [0/5]
+** Languages [7/13]
++ [X] clojure
++ [X] clojurescript
++ [X] java [0/0]
++ [ ] kotlin [0/0]
++ [X] golang [0/0]
++ [ ] rust [0/0]
++ [X] elisp [0/0]
++ [ ] lua [0/0]
++ [X] python [0/0]
 + [ ] javascript
-+ [ ] bash [0/5]
-+ [ ] awk [0/5]
-+ [X] C [6/5]
++ [ ] bash [0/0]
++ [ ] awk [0/0]
++ [X] C [0/0]
 
 * To improve
-** clojure [0/4]
+** clojure [0/7]
 + [ ] beer song
 + [ ] sublist
 + [ ] triangle (I don't know why but I don't like this one)
@@ -28,9 +29,11 @@ It require at least 5 exercise for in each language (apart of *Hello World*).
 + [ ] secret-handshake (See clojure bit functions)
 + [ ] study other POV's community solution (no need to change my solution)
 + [ ] poker (follow mentor advice)
-** java [0/2]
+** java [0/4]
 + [ ] binary search (make it generic)
 + [ ] forth evaluator (make it more abstract)
++ [ ] word count (improve the regex replace)
++ [ ] Install gradle to test locally on mac (maybe try to setup the docker)
 ** go [1/1]
 + [X] blackjack (it works but it's very ugly)
 ** C [/]

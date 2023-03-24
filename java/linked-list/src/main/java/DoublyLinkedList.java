@@ -23,8 +23,10 @@ class DoublyLinkedList<T> {
             if (head == tail) {
                 head = null;
             } else {
+                Element<T> tmp = tail;
                 tail.prev.next = null;
                 tail = tail.prev;
+                tmp.prev = null;
                 // the old tail now have no reference so it will be garbage collected
             }
             return value;
