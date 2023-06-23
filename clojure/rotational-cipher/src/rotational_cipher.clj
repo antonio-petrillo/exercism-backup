@@ -12,7 +12,7 @@
 
 (defn rotate [s k] ;; <- arglist goes here
       ;; your code goes here
-      (let [k (if (< k 0) (+ 26 (mod k 26)) (mod k 26))
-            cipher (zipmap alphabet (take 26 (drop k (cycle alphabet))))
-            encode (partial encode cipher)]
-        (apply str (map encode s))))
+  (let [k (if (< k 0) (+ 26 (mod k 26)) (mod k 26))
+        cipher (zipmap alphabet (take 26 (drop k (cycle alphabet))))
+        encode (partial encode cipher)]
+    (apply str (map encode s))))
