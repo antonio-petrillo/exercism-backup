@@ -21,7 +21,7 @@ It require at least 5 exercise for in each language (apart of *Hello World*).
 + [X] C [0/0]
 
 * To improve
-** clojure [0/8]
+** clojure [0/9]
 + [ ] beer song
 + [ ] sublist
 + [ ] triangle (I don't know why but I don't like this one)
@@ -30,6 +30,7 @@ It require at least 5 exercise for in each language (apart of *Hello World*).
 + [ ] study other POV's community solution (no need to change my solution)
 + [ ] poker (follow mentor advice)
 + [ ] zipper (improve solution and study other users solution)
++ [ ] card-games improve
 ** java [0/4]
 + [ ] binary search (make it generic)
 + [ ] forth evaluator (make it more abstract)
