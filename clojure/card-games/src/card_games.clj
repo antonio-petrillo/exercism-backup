@@ -26,17 +26,15 @@
   [hand]
   (double (/ (apply + hand) (count hand))))
 
-(card-average '(5 6 7))
-
 (defn approx-average?
   "Returns `true` if average is equal to either one of:
   - Take the average of the _first_ and _last_ number in the hand.
   - Using the median (middle card) of the hand."
   [hand]
-  (let [avg_12 (double (/ (+ (first hand) (last hand)) 2))
+  (let [avg-first-last (double (/ (+ (first hand) (last hand)) 2))
         avg (card-average hand)
         middle (double (nth hand (/ (count hand) 2)))]
-    (or (= avg avg_12)
+    (or (= avg avg-first-last)
         (= avg middle))))
 
 (defn average-even-odd?

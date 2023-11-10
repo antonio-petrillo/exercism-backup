@@ -12,7 +12,7 @@
 ;; but with number with huge factor this was to heavy to compute
 ;; (with the sieve I have to compute all the primes from 2 to the N), even with lazyseq this is humongous on the last 2 test.
 ;; https://www.youtube.com/watch?v=tPQaem-SgKw&t=421s here you can find an interesting video on lazyseq sieve.
-;; Then I got my head stuck to find a workaround on this problem and then I realized that the solution is simpler but really interesting.
+;; Then I got my head stuck on this problem and then I realized that the solution is simpler but really interesting.
 ;;
 ;; There is a lot (for me, obviously) to think about here:
 ;; Why factor is prime?
