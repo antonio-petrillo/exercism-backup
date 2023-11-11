@@ -32,5 +32,6 @@ It require at least 5 exercise for in each language (apart of *Hello World*).
 + [ ] zipper (improve solution and study other users solution)
 ** java [0/1]
 + [ ] word count (improve the regex replace)
++ [ ] sublist (for it is just spaghetti code)
 ** go [1/1]
 + [X] blackjack (it works but it's very ugly)
