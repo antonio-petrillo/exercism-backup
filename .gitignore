@@ -47,3 +47,5 @@ rust/*/tests/*
 .*
 !/.gitignore
 *.bin
+*/*test*.zig
+*test*.zig

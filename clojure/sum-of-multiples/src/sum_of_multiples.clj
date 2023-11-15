@@ -3,7 +3,7 @@
 (defn divisible-by? [num divisors]
   (loop [divisors divisors]
     (cond (empty? divisors) false
-          (= 0 (mod num (first divisors))) true
+          (zero? (mod num (first divisors))) true
           :else (recur (rest divisors)))))
 
 (defn sum-of-multiples [factors up-to] ;; <- arglist goes here
